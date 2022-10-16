@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdio.h>
-#include <line.h>
+#include <time.h>
 /**
  * main - entry Point
- * Description:prints if a number is positive or negative 
+ * description: prints whether a number is negative or positive
  * Return: 0
  */
 int main(void)
