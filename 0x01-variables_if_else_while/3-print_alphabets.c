@@ -12,12 +12,13 @@ int main(void)
 
 	for (a = 'a'; a <= 'z'; a++)
 	{
-		putchar(a)
+		putchar(a);
 	}
 	printf("\n");
 	for (A = 'A'; A <= 'Z'; A++)
 	{
-		putchar(A)
+		putchar(A);
 	}
+	printf("\n");
 	return (0);
 }
