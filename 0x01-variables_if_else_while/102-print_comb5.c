@@ -6,7 +6,8 @@
  */
 int main(void)
 {
-	int ni, n2;
+	int n1; 
+	int n2;
 
 	for (n1 = 0; n1 <= 98; n1++)
 	{
