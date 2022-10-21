@@ -5,7 +5,7 @@
  * @a: first number
  * @b: second number
  * @c: third number
- * Return: largets number
+ * Return: largest number
  */
 
 int largest_number(int a, int b, int c)
