@@ -1,8 +1,3 @@
-/*
- * File: 4-add.c
- * Auth: Brennan D Baraban
- */
-
 #include <stdio.h>
 #include <stdlib.h>
 
