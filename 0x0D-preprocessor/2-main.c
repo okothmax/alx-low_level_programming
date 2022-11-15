@@ -1,11 +1,11 @@
 #include <stdio.h>
 /**
- * main - entrey point
- * return: zero
+ * main - entry point for the function
+ *
+ * Return: zero
  */
 int main(void)
 {
-    printf("%s", __FILE__);
-
-    return (0);
+	printf("%s", __FILE__);
+	return (0);
 }
