@@ -25,17 +25,30 @@ int main(void)
         singly *current = NULL;
         current = (singly *)malloc(sizeof(singly));
 
-        current->data = 50;
-        current->link = NULL;
-        head->link = current;
+        if (current == NULL)
+        {
+            printf("There is no  meory to allocate\n");
+        }
 
-        current->data = 55;
+        else
+        {
+            current->data = 50;
+            current->link = NULL;
+            head->link = current;
+        }
+        current->data = 50;
         current->link = NULL;
         head->link->link = current;
 
-        printf("%d\n", head->data);
-        printf("%d", current->data);
+        current->data = 55;
+        current->link = NULL;
+        head->link->link->link = current;
 
+        while (head != NULL)
+        {
+            printf("%d\n", head->data);
+            head = head->link;
+        }
         free(current);
         free(head);
     }

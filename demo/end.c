@@ -19,6 +19,22 @@ int end_node(Node *current1, int d)
     tail = current1;
 }
 
+void count(Node *head)
+{
+    Node *ptr = NULL;
+    ptr = malloc(sizeof(Node));
+
+    ptr = head;
+    int count = 0;
+
+    while (ptr != NULL)
+    {
+        count++;
+        ptr = ptr->link;
+    }
+
+    printf("The number of nodes is: %d\n", count);
+}
 int main()
 {
     Node *head = NULL;
@@ -46,15 +62,7 @@ int main()
         head = head->link;
     }
 
-    int count = 0;
-
-    while (head != NULL)
-    {
-        count++;
-        head = head->link;
-    }
-
-    printf("The number of nodes is: %d\n", count);
+    count(head);
 
     free(head);
     free(current);

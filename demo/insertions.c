@@ -8,7 +8,7 @@ typedef struct node
     struct node *link;
 } Node;
 
-void add_node_beginning(Node *first, int data);
+void add_node_beginning(Node *head, int Data);
 
 int main(void)
 {
@@ -83,8 +83,6 @@ void add_node_beginning(Node *head, int Data)
     if (first == NULL)
     {
         printf("This is no memory to allocate\n");
-
-        return -1;
     }
 
     else
@@ -95,9 +93,9 @@ void add_node_beginning(Node *head, int Data)
     first->link = head;
     head = first;
 
-    while (head != NULL)
+    while (first != NULL)
     {
-        printf("%d\n", head->data);
-        head = head->link;
+        printf("%d\n", first->data);
+        first = first->link;
     }
 }

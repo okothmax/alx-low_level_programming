@@ -47,16 +47,6 @@ int main()
     tail->next = NULL;
     second->next = tail;
 
-    int number = 0;
-
-    while (head != NULL)
-    {
-        number++;
-        head = head->next;
-    }
-
-    printf("The number of nodes is: %d\n", number);
-
     count_nodes(head);
 
     free(head);
