@@ -31,26 +31,27 @@ int counting_nodes(Node *head)
 
 int main()
 {
+    /*
     Node *head = NULL;
-    head = (Node *)malloc(sizeof(Node));
-    head->data = 10;
-    head->link = NULL;
+     head = (Node *)malloc(sizeof(Node));
+     head->data = 10;
+     head->link = NULL;
 
-    Node *current = NULL;
-    current = (Node *)malloc(sizeof(Node));
-    current->data = 20;
-    current->link = NULL;
-    head->link = current;
+     Node *current = NULL;
+     current = (Node *)malloc(sizeof(Node));
+     current->data = 20;
+     current->link = NULL;
+     head->link = current;
 
-    Node *current1 = NULL;
-    current1 = (Node *)malloc(sizeof(Node));
-    current1->data = 30;
-    current1->link = NULL;
-    current->link = current1;
+     Node *current1 = NULL;
+     current1 = (Node *)malloc(sizeof(Node));
+     current1->data = 30;
+     current1->link = NULL;
+     current->link = current1;
 
-    counting_nodes(head);
-    free(head);
-    free(current);
+     counting_nodes(head);
+     free(head);
+     free(current);*/
 
     return 0;
 }
