@@ -9,7 +9,7 @@ In this project, I practiced writing Makefiles.
 ## Helper Files :raised_hands:
 
 * [school.c](./school.c): C function that displays a seahorse in text.
-Used for Makefile practice purposes throughout project. Provided by Holberton School.
+Used for Makefile practice purposes throughout project. Provided by alx.
 
 * [main.c](./main.c): Main C function that runs the function defined in
 [school.c](./school.c).
@@ -18,7 +18,7 @@ Provided by alx.
 ## Header File :file_folder:
 
 * [m.h](./m.h): Header file defining the function prototype used in `school.c`.
-Provided by Holberton School.
+Provided by alx.
 
 ## Tasks :page_with_curl:
 
@@ -55,7 +55,7 @@ Provided by Holberton School.
     * Variable `RM` that defines the command to delete files.
 
 * **4. A complete Makefile**
-  * [4-Makefile](./4-Makefile): Makefile that creates an executable `holberton` based on
+  * [4-Makefile](./4-Makefile): Makefile that creates an executable `school` based on
   [school.c](./school.c) and [main.c](./main.c). Builds on [3-Makefile](./3-Makefile)
   with:
     * Variable `CFLAGS` that defines the compiler flags `-Wall -Werror -Wextra
@@ -77,7 +77,7 @@ Provided by Holberton School.
     surrounding land).
 
 * **6. make -f 100-Makefile**
-  * [100-Makefile](./100-Makefile): Makefile that creates an executable `holberton` based on
+  * [100-Makefile](./100-Makefile): Makefile that creates an executable `school` based on
   [school.c](./school.c) and [main.c](./main.c). Builds on [4-Makefile](./4-Makefile)
   with:
     * Does not define the variable `RM`.
